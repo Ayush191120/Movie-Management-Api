@@ -4,11 +4,11 @@ This project implements a backend **Movie API** using **FastAPI**, **Prisma ORM*
 It provides full **CRUD** functionality (Create, Read, Update, Delete) for movies and includes built-in **Swagger UI** for API documentation.
 
 # Tech Stack
-1)**FastApi**  :- Web framework with async support and automatic OpenAPI docs.
-2)**Prisma ORM** :- Type-safe database client for Python.
-3)**PostgreSQL** :- Relational database for persistent storage.
-4)**Uvicorn** :- ASGI server to run FastAPI.
-5)**Pydantic** :- Used internally by Prisma client for validation.
+1)FastApi :- Web framework with async support and automatic OpenAPI docs.
+2)Prisma ORM :- Type-safe database client for Python.
+3)PostgreSQL :- Relational database for persistent storage.
+4)Uvicorn :- ASGI server to run FastAPI.
+5)Pydantic :- Used internally by Prisma client for validation.
 
 # How to Run the Project
 1) Create & activate a virtual environment
