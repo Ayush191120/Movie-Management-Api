@@ -3,14 +3,14 @@
 This project implements a backend **Movie API** using **FastAPI**, **Prisma ORM**, and **PostgreSQL**.  
 It provides full **CRUD** functionality (Create, Read, Update, Delete) for movies and includes built-in **Swagger UI** for API documentation.
 
-# Tech Stack
+## Tech Stack
 1)FastApi :- Web framework with async support and automatic OpenAPI docs.
 2)Prisma ORM :- Type-safe database client for Python.
 3)PostgreSQL :- Relational database for persistent storage.
 4)Uvicorn :- ASGI server to run FastAPI.
 5)Pydantic :- Used internally by Prisma client for validation.
 
-# How to Run the Project
+## How to Run the Project
 1) Create & activate a virtual environment
 2) Install dependencies for Fastapi and database postgresql.
 3) Setup PostgreSQL and postgresql installed and running on port 5432.
@@ -19,12 +19,20 @@ It provides full **CRUD** functionality (Create, Read, Update, Delete) for movie
 6) Run Prisma migration and command is prisma migrate dev --name init
 7) Run the FastAPI server command is fastapi dev main.py
 
-# How to run tests
+## How to run tests
 1) Install test dependencies
 2) Run all tests
 3) Run tests with detailed output
 4) Run a single test file
 5) Run with live logs
 
-# Link to Swagger documentation
+## Link to Swagger documentation
 Swagger UI :- [http://127.0.0.1:8000/docs]
+I have used **POSTMAN** and check the all API.
+POSTMAN :- 
+1) Create a Movie , Method :- "POST", URL :- http://127.0.0.1:8000/movies, Body :- form-data
+2) Get All Movies, Method :- "GET", URL :- http://127.0.0.1:8000/movies
+3) Get Movie by id, Method :- "GET", URL :- http://127.0.0.1:8000/movies/{id}
+4) Update Movie, Method :- "PUT", URL :- http://127.0.0.1:8000/movies/{id}, Body :- form-data, title update
+5) Delete Movie, Method :- "DELETE", URL :- http://127.0.0.1:8000/movies/{id}
+   
